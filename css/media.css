@@ -1,0 +1,46 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 800px) {
+    .myform {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .inputsdiv {
+        max-width: 100%;
+        align-items: center;
+    }
+    .textareadiv {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    input[type="text"],
+    input[type="email"] {
+        margin-bottom: 20px;
+        justify-content: center;
+    }
+    .infobox,
+    .infobox2 {
+        text-align: center;
+    }
+    .infobox h3,
+    .infobox2 h3 {
+        width: 100%;
+        font-size: 36px;
+    }
+
+    .imgwrapper img {
+        width: 70%;
+        align-items: center;
+    }
+}
+
+@media (max-width:1112px) {
+    footer{
+        width: 100%;
+    }
+    
+}
